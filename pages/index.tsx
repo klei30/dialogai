@@ -57,14 +57,14 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="ChatbotGPT - ChatGPT AI Chat Bot for your business"
-        description="ChatbotGPT offers a no-code platform to create custom AI chatbots trained on your data. Our solution streamlines customer support, onboards new team members, and simplifies your team's workflow."
+        title="Dialogus - AI Solution for your business"
+        description="Dialogus offers a platform to create custom AI chatbots trained on your data. Our solution streamlines customer support, onboards new team members, and simplifies your team's workflow."
         uri="/"
       />
 
       <Head>
-        <meta property="og:url" content="https://www.chatbotgpt.ai/" />
-        <meta property="og:site_name" content="ChatbotGPT" />
+        <meta property="og:url" content="https:/dialogai.onrender.com/" />
+        <meta property="og:site_name" content="Dialogus" />
         <meta property="og:type" content="website" />
       </Head>
       {/* <div className="w-full p-2 text-center bg-indigo-500">
