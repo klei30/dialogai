@@ -142,7 +142,6 @@ export default function Example() {
               {callsToAction.map((item) => (
                 <a
                   key={item.name}
-                  href={item.href}
                   className="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100"
                 >
                   <item.icon
