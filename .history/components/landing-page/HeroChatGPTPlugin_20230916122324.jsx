@@ -93,7 +93,7 @@ export function HeroChatGPTPlugin() {
           <span className="flex items-center justify-center px-2 py-3 font-extrabold uppercase bg-indigo-500 rounded-full">
             <span>New</span>
           </span>
-          Chat with any document
+          {/* Chat with any document
           <Link
             href="/products/chat"
             style={{ background: 'none' }}
@@ -117,7 +117,7 @@ export function HeroChatGPTPlugin() {
               <line x1="15" y1="16" x2="19" y2="12"></line>
               <line x1="15" y1="8" x2="19" y2="12"></line>
             </svg>
-          </Link>
+          </Link> */}
         </div>
 
 

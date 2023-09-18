@@ -127,7 +127,7 @@ export function HeroChatGPTPlugin() {
             <h1 className=" text-4xl font-bold !leading-snug tracking-tight text-white whitespace-pre-wrap font-display sm:text-5xl">
               {/* {'Document Retrieval \nfor ChatGPT \nin minutes'} */}
               {/* {`Build Your Own\nChatGPT Trained On\nYour Custom Data`} */}
-              {`With\nCustom Crafted\nSolutions`}
+              {`With\nCustom Crafted\n Solutions`}
               {/* {`ChatGPT Plugin\nIn minutes\nWithout Code`} */}
 
             </h1>

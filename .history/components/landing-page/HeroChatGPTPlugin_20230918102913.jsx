@@ -89,45 +89,16 @@ export function HeroChatGPTPlugin() {
 
           <Stack sx={{ width: '100%' }}>
 
-          <div className="mb-12 font-bold inline-flex flex-wrap items-center gap-2 rounded-md border border-neutral-800/50 bg-neutral-900/60 py-[5px] pr-5 pl-2 text-xs leading-[0] text-neutral-300 backdrop-blur transition-all duration-300 hover:bg-neutral-900/80 sm:rounded-full mx-auto sm:mx-0 sm:mr-auto">
-          <span className="flex items-center justify-center px-2 py-3 font-extrabold uppercase bg-indigo-500 rounded-full">
-            <span>New</span>
-          </span>
-          Chat with any document
-          <Link
-            href="/products/chat"
-            style={{ background: 'none' }}
-            className="text-[10px]underline-offset-4 text-indigo-300 text-main-hover flex items-center gap-2 font-medium transition-all hover:underline"
-          >
-            Learn More{' '}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="icon icon-tabler icon-tabler-arrow-narrow-right"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              fill="none"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <line x1="15" y1="16" x2="19" y2="12"></line>
-              <line x1="15" y1="8" x2="19" y2="12"></line>
-            </svg>
-          </Link>
-        </div>
+          
 
 
             <h2 className="mb-4 text-2xl font-bold text-violet-300">
-            Revolutionize Your Industry with Dialogo AI
+            Revolutionize Your Industry 
             </h2>
             <h1 className=" text-4xl font-bold !leading-snug tracking-tight text-white whitespace-pre-wrap font-display sm:text-5xl">
               {/* {'Document Retrieval \nfor ChatGPT \nin minutes'} */}
               {/* {`Build Your Own\nChatGPT Trained On\nYour Custom Data`} */}
-              {`With\nCustom Crafted\nSolutions`}
+              {`With\Dialogo\n AI`}
               {/* {`ChatGPT Plugin\nIn minutes\nWithout Code`} */}
 
             </h1>
@@ -153,7 +124,7 @@ export function HeroChatGPTPlugin() {
             {/* <h2 className='max-w-2xl mx-auto mt-4 text-3xl font-bold tracking-tight text-white whitespace-pre-wrap font-display sm:text-5xl'>No-code required!</h2> */}
 
             <p className="max-w-md mx-auto mt-6 text-lg tracking-tight text-gray-200 sm:mx-0 sm:max-w-lg">
-              With our{' '}
+              With {' '}
               <strong className="text-violet-300">Ai platform</strong>, we
               can create a{' '}
               <strong className="text-violet-300">Personalized AI Solution</strong>{' '}

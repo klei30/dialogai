@@ -50,12 +50,12 @@ function MobileNavIcon({ open }) {
 function MobileNavigation() {
   return (
     <Popover>
-      {/* <Popover.Button
+      <Popover.Button
         className="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none bg-black"
         aria-label="Toggle Navigation"
       >
         {({ open }) => <MobileNavIcon open={open} />}
-      </Popover.Button> */}
+      </Popover.Button>
       <Transition.Root>
         <Transition.Child
           as={Fragment}
@@ -77,10 +77,10 @@ function MobileNavigation() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <Popover.Panel
+          {/* <Popover.Panel
             as="div"
             className="absolute inset-x-0 flex flex-col p-4 mt-4 text-lg tracking-tight origin-top bg-white shadow-xl top-full rounded-2xl text-slate-900 ring-1 ring-slate-900/5"
-          >
+          > */}
             <MobileNavLink href="/pricing">Pricing</MobileNavLink>
             <MobileNavLink href="https://github.com/gmpetrov/chaindesk" target={'_blank'}>
               GitHub

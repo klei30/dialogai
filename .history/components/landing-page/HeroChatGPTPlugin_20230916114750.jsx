@@ -122,7 +122,7 @@ export function HeroChatGPTPlugin() {
 
 
             <h2 className="mb-4 text-2xl font-bold text-violet-300">
-            Revolutionize Your Industry with Dialogus
+            Revolutionize Your Industry with Dialogo
             </h2>
             <h1 className=" text-4xl font-bold !leading-snug tracking-tight text-white whitespace-pre-wrap font-display sm:text-5xl">
               {/* {'Document Retrieval \nfor ChatGPT \nin minutes'} */}

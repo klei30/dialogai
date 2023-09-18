@@ -100,7 +100,7 @@ export function HeroChatGPTPlugin() {
             className="text-[10px]underline-offset-4 text-indigo-300 text-main-hover flex items-center gap-2 font-medium transition-all hover:underline"
           >
             Learn More{' '}
-            <svg
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-arrow-narrow-right"
               width="20"
@@ -116,7 +116,7 @@ export function HeroChatGPTPlugin() {
               <line x1="5" y1="12" x2="19" y2="12"></line>
               <line x1="15" y1="16" x2="19" y2="12"></line>
               <line x1="15" y1="8" x2="19" y2="12"></line>
-            </svg>
+            </svg> */}
           </Link>
         </div>
 
@@ -127,7 +127,7 @@ export function HeroChatGPTPlugin() {
             <h1 className=" text-4xl font-bold !leading-snug tracking-tight text-white whitespace-pre-wrap font-display sm:text-5xl">
               {/* {'Document Retrieval \nfor ChatGPT \nin minutes'} */}
               {/* {`Build Your Own\nChatGPT Trained On\nYour Custom Data`} */}
-              {`With\nCustom Crafted\nSolutions`}
+              {`With\nCustom Crafted\n Solutions`}
               {/* {`ChatGPT Plugin\nIn minutes\nWithout Code`} */}
 
             </h1>

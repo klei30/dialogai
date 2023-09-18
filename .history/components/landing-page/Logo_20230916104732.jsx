@@ -7,7 +7,7 @@ export function Logo(props) {
       {/* <Image width="100" height="100" className={clsx(props.className)} src="/app-logo-icon.png" alt="" /> */}
       {/* <span className="text-xl">ChatbotGPT</span> */}
       <Image width="80" height="100" className={clsx(props.className)} src="/new.png" alt="" />
-      <h2>Dialogus</h2>
+      <h2>Dialogo</h2>
     </div>
   )
 }

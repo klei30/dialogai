@@ -13,7 +13,7 @@ type Props = {
 };
 
 function SEO(props: Props) {
-  const baseUrl = props.baseUrl || 'https://dialogai.onrender.com/';
+  const baseUrl = props.baseUrl || 'https://www.chatbotgpt.ai';
   const url =
     props.url ||
     (props.uri &&

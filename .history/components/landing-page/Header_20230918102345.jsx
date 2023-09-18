@@ -50,12 +50,12 @@ function MobileNavIcon({ open }) {
 function MobileNavigation() {
   return (
     <Popover>
-      {/* <Popover.Button
+      <Popover.Button
         className="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none bg-black"
         aria-label="Toggle Navigation"
       >
         {({ open }) => <MobileNavIcon open={open} />}
-      </Popover.Button> */}
+      </Popover.Button>
       <Transition.Root>
         <Transition.Child
           as={Fragment}
@@ -77,31 +77,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <Popover.Panel
-            as="div"
-            className="absolute inset-x-0 flex flex-col p-4 mt-4 text-lg tracking-tight origin-top bg-white shadow-xl top-full rounded-2xl text-slate-900 ring-1 ring-slate-900/5"
-          >
-            <MobileNavLink href="/pricing">Pricing</MobileNavLink>
-            <MobileNavLink href="https://github.com/gmpetrov/chaindesk" target={'_blank'}>
-              GitHub
-            </MobileNavLink>
-            <MobileNavLink href="https://databerry.getrewardful.com/" target={'_blank'}>
-              Affiliates
-            </MobileNavLink>
-            <MobileNavLink href="/help" target={'_blank'}>
-              Help Center
-            </MobileNavLink>
-            <MobileNavLink href="https://docs.chaindesk.ai/" target={'_blank'}>
-              API Docs
-            </MobileNavLink>
-
-            {/* <MobileNavLink href="#testimonials">Testimonials</MobileNavLink> */}
-            {/* <MobileNavLink href="#pricing">Pricing</MobileNavLink> */}
-            <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="https://app.chaindesk.ai">
-              Sign in
-            </MobileNavLink>
-          </Popover.Panel>
+      
         </Transition.Child>
       </Transition.Root>
     </Popover>

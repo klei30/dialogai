@@ -94,11 +94,11 @@ export function HeroChatGPTPlugin() {
             <span>New</span>
           </span>
           Chat with any document
-          <Link
+          {/* <Link
             href="/products/chat"
             style={{ background: 'none' }}
             className="text-[10px]underline-offset-4 text-indigo-300 text-main-hover flex items-center gap-2 font-medium transition-all hover:underline"
-          >
+          > */}
             Learn More{' '}
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -26,7 +26,7 @@ function SEO(props: Props) {
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="robots" content="index, follow" />
 
-      <link rel="icon" href={props.faviconUrl || '/app-logo-icon.png'} sizes="any" />
+      <link rel="icon" href={props.faviconUrl || '/favicon.png'} sizes="any" />
 
       <title>{props.title}</title>
       <meta name="title" content={props.title} />

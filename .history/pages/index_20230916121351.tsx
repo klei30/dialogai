@@ -63,7 +63,7 @@ export default function Home() {
       />
 
       <Head>
-        <meta property="og:url" content="https://dialogai.onrender.com/" />
+        <meta property="og:url" content="https://www.chatbotgpt.ai/" />
         <meta property="og:site_name" content="Dialogo" />
         <meta property="og:type" content="website" />
       </Head>

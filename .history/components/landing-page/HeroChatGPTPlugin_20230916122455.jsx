@@ -85,7 +85,7 @@ export function HeroChatGPTPlugin() {
           </div>
         </Alert> */}
 
-        <div className="flex flex-col space-y-8 text-center sm:space-y-0 sm:flex-row sm:space-x-8 sm:text-left">
+        {/* <div className="flex flex-col space-y-8 text-center sm:space-y-0 sm:flex-row sm:space-x-8 sm:text-left">
 
           <Stack sx={{ width: '100%' }}>
 
@@ -118,7 +118,7 @@ export function HeroChatGPTPlugin() {
               <line x1="15" y1="8" x2="19" y2="12"></line>
             </svg>
           </Link>
-        </div>
+        </div> */}
 
 
             <h2 className="mb-4 text-2xl font-bold text-violet-300">
