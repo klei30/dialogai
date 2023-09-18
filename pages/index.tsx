@@ -58,19 +58,19 @@ export default function Home() {
     <>
       <SEO
         title="Dialogo - AI Solution for your business"
-        description="ChatbotGPT offers a no-code platform to create custom AI chatbots trained on your data. Our solution streamlines customer support, onboards new team members, and simplifies your team's workflow."
+        description="Dialogo offers a no-code platform to create custom AI chatbots trained on any datastet. Our solution streamlines customer support, onboards new team members, and simplifies your team's workflow."
         uri="/"
       />
 
       <Head>
-        <meta property="og:url" content="https://dialogai.onrender.com/" />
+        <meta property="og:url" content="https://dialogo.chat/" />
         <meta property="og:site_name" content="Dialogo" />
         <meta property="og:type" content="website" />
       </Head>
       {/* <div className="w-full p-2 text-center bg-indigo-500">
         <h2>
-          🔔 Rebranding Alert - Databerry.ai is now ⛓️{' '}
-          <strong>ChatbotGPT.ai</strong>
+          🔔 Rebranding Alert - Dialogo.ai is now ⛓️{' '}
+          <strong>Dialogo.chat</strong>
         </h2>
       </div> */}
       <Header />
