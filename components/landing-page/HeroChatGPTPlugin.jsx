@@ -124,7 +124,7 @@ export function HeroChatGPTPlugin() {
             {/* <h2 className='max-w-2xl mx-auto mt-4 text-3xl font-bold tracking-tight text-white whitespace-pre-wrap font-display sm:text-5xl'>No-code required!</h2> */}
 
             <p className="max-w-md mx-auto mt-6 text-lg tracking-tight text-gray-200 sm:mx-0 sm:max-w-lg">
-              With {' '}
+              With Our{' '}
               <strong className="text-violet-300">Ai platform</strong>, we
               can create a{' '}
               <strong className="text-violet-300">Personalized AI Solution</strong>{' '}
