@@ -384,7 +384,7 @@ export default function BubbleWidgetSettings(props: Props) {
                   });
                 }}
               >
-                <SyntaxHighlighter
+   {/* <SyntaxHighlighter
                   language="htmlbars"
                   style={docco}
                   customStyle={{
@@ -392,7 +392,7 @@ export default function BubbleWidgetSettings(props: Props) {
                   }}
                 >
                   {installScript}
-                </SyntaxHighlighter>
+                </SyntaxHighlighter> */}
               </Box>
             </Stack>
           </Stack>
