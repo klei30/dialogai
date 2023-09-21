@@ -258,27 +258,7 @@ function ChatBox({
           }
         }}
       >
-        <InfiniteScroll
-          isReverse
-          useWindow={false}
-          getScrollParent={() => scrollableRef.current}
-          loadMore={handleLoadMoreMessages ? handleLoadMoreMessages : () => {}}
-          hasMore={hasMoreMessages}
-          loader={
-            Array(1)
-              .fill(0)
-              .map((_, index) => (
-                <Stack key={index} direction={'row'} gap={2} mb={2}>
-                  <Skeleton variant="circular" width={34} height={34} />
-                  <Stack gap={1} sx={{ width: '100%' }}>
-                    <Skeleton variant="text" width={'97%'} />
-                    <Skeleton variant="text" width={'92%'} />
-                    <Skeleton variant="text" width={'95%'} />
-                  </Stack>
-                </Stack>
-              )) as any
-          }
-        >
+       
           <Stack gap={2}>
             {firstMsg && (
               <Stack sx={{ width: '100%' }} direction={'row'} gap={1}>
